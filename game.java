@@ -8,7 +8,7 @@ class information{
 	    this.name = sc.nextLine();
 		if(Character.isLowerCase(name.charAt(0)))
 			change();
-		System.out.print("Hello "+ this.name+ ", Do you want to play with us? ");
+		System.out.print("Hello "+ this.name+ ", Do you want to play with us?(Y/N) ");
 	}
 	public void change(){
 		String split[] = name.split("");
@@ -17,7 +17,7 @@ class information{
 	}
 	public boolean ans(){
 		boolean ans;
-		if(sc.next().toLowerCase().equals("yes")) ans = true;
+		if(sc.next().toLowerCase().equals("y")) ans = true;
 		else {
 			ans = false;
 			System.out.println("Thank you "+name+" for joining us.");
