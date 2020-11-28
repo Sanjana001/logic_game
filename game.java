@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.util.*;
 class information{
 	String name;
@@ -40,7 +39,7 @@ class game{
 			thread();
 			System.out.println("\nAlso add "+num+" from my side and then divide your number by 2");
 			thread();
-			System.out.println("\nNow subtract that number which you choose ");
+			System.out.println("\nNow subtract that number which you have chosen ");
 			thread();
 			System.out.println("\nThe answer stored in your mind is: "+num/2);
 			try{
