@@ -26,7 +26,7 @@ class information{
 	}
 }
 class game{
-	public static void main(String [] args){
+	public static void main(String[] args){
 		Thread t = Thread.currentThread();
 		information info = new information();
 		List<Integer> lst = new ArrayList<Integer>();
@@ -46,12 +46,12 @@ class game{
 			try{
 			   Thread.sleep(10000);
 		           //delay for 10 seconds or 10000 milliseconds
-		    }
-		    catch(InterruptedException e){
+		        }
+		        catch(InterruptedException e){
 			   System.out.println("Thread Interrupted");
-		    }
+		        }
 			System.out.println("\nInteresting....");
-			System.out.print("Do you want to continue or not: ");
+			System.out.print("Do you want to continue or not (Y/N): ");
 		}
 	}
 	public static int get(List<Integer> lst){
