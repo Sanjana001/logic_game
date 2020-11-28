@@ -45,6 +45,7 @@ class game{
 			System.out.println("\nThe answer stored in your mind is: "+num/2);
 			try{
 			   Thread.sleep(10000);
+		           //delay for 10 seconds or 10000 milliseconds
 		    }
 		    catch(InterruptedException e){
 			   System.out.println("Thread Interrupted");
@@ -60,7 +61,8 @@ class game{
 	public static void thread(){
 		Thread t = Thread.currentThread();
 		try{
-			Thread.sleep(8000);
+			Thread.sleep(15000);
+			//delay for 15 seconds or 15000 milliseconds
 		}
 		catch(InterruptedException e){
 			System.out.println("Thread Interrupted");
